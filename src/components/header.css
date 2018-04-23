@@ -1,0 +1,11 @@
+.navbar {
+    min-height: 80px;
+    width: 100%;
+    text-align: center;
+    background: #4db8ff;
+}
+.App-title {
+    font-size: x-large;
+    color: whitesmoke;
+    font-family: cursive;
+}
