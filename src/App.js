@@ -3,7 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/header';
 import Wrapper from './components/wrapper';
-// import Form from './components/input-form'
+import Form from './components/input-form'
+
 
 
 class App extends Component {
@@ -11,7 +12,7 @@ class App extends Component {
     return (
       <Wrapper>
       <Header />
-      {/* <Form /> */}
+      <Form />
       </Wrapper>
     );
   }

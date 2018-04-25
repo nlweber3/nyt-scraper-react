@@ -1,10 +1,12 @@
 {
   "name": "scraping-react",
   "version": "0.1.0",
+  "homepage": "https://nlweber.github.io/nyt-scraper-react",
   "private": true,
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.3",
+    "gh-pages": "^1.1.0",
     "mongoose": "^5.0.15",
     "morgan": "^1.9.0",
     "react": "^16.3.2",
@@ -16,6 +18,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   }
 }
